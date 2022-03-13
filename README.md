@@ -1,6 +1,6 @@
 Demo ViewLocator in dumber bundler.
 1. In main.ts, for any view model a/b.ts, load views from templates/a/b.html.
-2. In gulpfile.js, map module id starting with "templates" to absolute path "/templates".
+2. In gulpfile.js dumber options "paths", map module id starting with "templates" to absolute path "/templates".
 3. The templates files (out of src/ folder) are served at static file by the dev-server.js.
 
 Note any relative require such as `<require from="./app.css"></require>` in templates/app.html is trying to load from location related to the html module id `templates/app.html`, so the app.css is in templates folder too.
