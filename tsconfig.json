@@ -1,0 +1,20 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "baseUrl": "src",
+    "allowJs": true,
+    "target": "es2017"
+  },
+  "include": [
+    "src",
+    "test"
+  ],
+  "atom": {
+    "rewriteTsconfig": false
+  }
+}
