@@ -6,7 +6,7 @@ Demo ViewLocator in dumber bundler.
 Note any relative require such as `<require from="./app.css"></require>` in templates/app.html is trying to load from location related to the html module id `templates/app.html`, so the app.css is in templates folder too.
 
 If you want to require another view-model, better use absolute module id, such as `<require from="components/foo"></require>`. This will try to load module defined by file `src/components/foo.ts` (or js).
-=====
+
 # au-vl
 
 An app using dumber bundler to build. More details in `gulpfile.js`.
